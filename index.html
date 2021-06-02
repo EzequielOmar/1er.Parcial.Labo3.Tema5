@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vazquez, Ezequiel Omar - Labo3 - 1er Parcial</title>
+    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./imagenes/logo.jpg" alt="logo" />
+        <nav id="main-nav">
+          <ul>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Anuncios</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h1>¡Adopte una mascota!.</h1>
+      <h2>Administración, ponga en adopción su mascota.</h2>
+      <form>
+        <fieldset>
+          <legend>Información del Anuncio</legend>
+
+          <input type="text" name="id" id="id" hidden />
+
+          <label for="titulo">TITULO:</label>
+          <input
+            type="text"
+            name="titulo"
+            id="titulo"
+            required
+            placeholder="Título"
+          />
+
+          <label for="descripcion">DESCRIPCIÓN:</label>
+          <input
+            type="text"
+            name="descripcion"
+            id="descripcion"
+            required
+            placeholder="Descripción"
+          />
+
+          <label for="animal">ANIMAL:</label>
+          <label for="animal">PERRO</label>
+          <input type="radio" name="animal" value="perro" checked />
+          <label for="animal">GATO</label>
+          <input type="radio" name="animal" value="gato" />
+
+          <label for="precio">PRECIO:</label>
+          <input
+            type="number"
+            step="0.01"
+            name="precio"
+            required
+            id="precio"
+            placeholder="Precio"
+          />
+
+          <input
+            type="text"
+            name="raza"
+            required
+            id="raza"
+            placeholder="Raza"
+          />
+
+          <input type="date" name="fecha" required id="fecha" />
+
+          <select name="vacuna" id="vacuna">
+            <option value="" disabled selected hidden>---Elegir---</option>
+            <option value="si">Si</option>
+            <option value="no">No</option>
+          </select>
+        </fieldset>
+        <img
+          style="width: 1.2rem"
+          src="./imagenes/disquete.png"
+          alt="disquete"
+        />
+        <input type="submit" id="send" value="Guardar" />
+        <input type="submit" id="cancel" value="Cancelar" />
+      </form>
+    </main>
+    <artcle>
+      <div id="spinner-div"></div>
+      <div id="lista"></div>
+    </artcle>
+    <footer>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Anuncios</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+main {
+  position: relative;
+  top: 9vh;
+}
+
+body,
+main {
+  margin: 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body h1,
+body h2,
+main h1,
+main h2 {
+  text-align: center;
+  width: 100%;
+}
+
+body header div,
+main header div {
+  height: 15vh;
+  background-color: orangered;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 9vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header div img,
+main header div img {
+  height: 80%;
+}
+
+body footer,
+main footer {
+  width: 100%;
+  bottom: 0px;
+  margin: 1rem 0 0 0;
+  background-color: orangered;
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav,
+main nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav ul,
+main nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+body nav ul a,
+main nav ul a {
+  margin: 15px;
+  color: white;
+}
+
+body form,
+main form {
+  width: 70%;
+  padding: 5rem;
+}
+
+body form fieldset,
+main form fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body form fieldset *:not(legend),
+main form fieldset *:not(legend) {
+  width: 100%;
+}
+
+body form input,
+main form input {
+  margin: 0.3rem;
+  padding: 0.3rem 1rem;
+}
+
+body form input:not(input[type="submit"]),
+main form input:not(input[type="submit"]) {
+  background-color: #dddddd;
+  border-radius: 50px;
+  border: 0px;
+  height: 1.3rem;
+}
+
+body form input[type="submit"],
+main form input[type="submit"] {
+  color: antiquewhite;
+  width: 15%;
+  border: solid grey 1px;
+}
+
+body form label,
+main form label {
+  padding: 0.3rem;
+}
+
+body form #send,
+main form #send {
+  color: white;
+  background-color: #1a1a99;
+}
+
+body form #cancel,
+body form #delete,
+main form #cancel,
+main form #delete {
+  color: white;
+  background-color: #ac1d1d;
+}
+
+body div,
+main div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+body div table,
+main div table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+body div table th,
+body div table td,
+main div table th,
+main div table td {
+  text-align: left;
+  padding: 8px;
+}
+
+body div table tr:nth-child(even),
+main div table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+body div img,
+main div img {
+  width: 100px;
+}
+
+body th,
+main th {
+  color: whitesmoke;
+  background-color: #5c5c74;
+}
+/*# sourceMappingURL=style.css.map */
